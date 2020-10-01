@@ -1,0 +1,44 @@
+.Register-form{
+  padding-right: 70px;
+}
+.Register {
+  margin: auto;
+    margin-top: 10%;
+    background: #EFEFEF;
+    border-radius: 20px;
+    border: 3px solid black;
+    position: "fixed";
+    top: 0;
+    display: "flex";
+    justify-Content: "space-between";
+    align-Items: center;
+    width: 43%;
+    height: 40%;
+    font-Weight: bold;
+    padding-top: 28px;
+    padding-right: 6%;
+    box-Sizing: border-box;
+    animation: fadeIn ease 3s;
+}
+  @media only screen and (max-width: 500px) {
+    .Register {
+        margin: auto;
+        background: none;
+        box-shadow: none;
+        width: 100%;
+        padding: 0px 20px;
+        border: none;
+    }
+    .Register-form{
+      padding: none;
+      float: right;
+    }
+  }
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }

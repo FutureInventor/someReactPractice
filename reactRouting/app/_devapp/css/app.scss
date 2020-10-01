@@ -1,0 +1,25 @@
+@import '~antd/dist/antd.css';
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #BEE3EF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.dashboard {
+    padding: 0 40px;
+}
+
+.site-tree-search-value {
+    color: #f50;
+  }
+
+.status {
+    color: red;
+}
+

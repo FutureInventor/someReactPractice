@@ -1,0 +1,35 @@
+.dashboard{
+    margin: auto;
+    padding: 1% 1% 0 1%;
+    background: #EFEFEF;
+    border-radius: 20px;
+    border: 3px solid black;
+    position: "fixed";
+    top: 0;
+    display: "flex";
+    justify-Content: "space-between";
+    align-Items: center;
+    width: 43%;
+    height: 40%;
+    font-Weight: bold;
+    box-Sizing: border-box;
+    animation: fadeIn ease 3s;
+}
+@media only screen and (max-width: 500px) {
+    .dashboard {
+        margin: auto;
+        background: none;
+        box-shadow: none;
+        width: 100%;
+        padding: 0px 20px;
+        border: none;
+    }
+}
+@keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}

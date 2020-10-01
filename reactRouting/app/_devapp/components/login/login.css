@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+.main{
+    overflow: hidden;
+}
+.login-form{
+  padding-right: 70px;
+}
+p {
+    margin-top: 15px ;
+    margin-bottom: 15px ;
+  } 
+.signup1{
+    font-size: 71px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 60px; 
+}
+.signup2{
+    font-size: 93px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 70px; 
+}
+.Text{
+    padding-top: 1%;
+    margin-left: 10px;
+    line-height: 10px;
+    margin-top: 11%;
+    color: black;
+    float: left;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    animation: fadeIn ease 3s;
+}
+.Login {
+    float: left;
+    margin-left: 18%;
+    margin-top: 10%;
+    background: #EFEFEF;
+    border-radius: 20px;
+    border: 3px solid black;
+    position: "fixed";
+    top: 0;
+    display: "flex";
+    justify-Content: "space-between";
+    align-Items: center;
+    width: 43%;
+    height: 40%;
+    font-Weight: bold;
+    padding-top: 28px;
+    padding-right: 6%;
+    box-Sizing: border-box;
+    animation: fadeIn ease 3s;
+  }
+  .underline--magical {
+    background-image: linear-gradient(120deg, #f59967 0%, #f59967 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+  }
+  .underline--magical:hover{
+      background-size: 100% 88%;
+  }
+  @media only screen and (max-width: 500px) {
+    .Login {
+        margin: auto;
+        background: none;
+        box-shadow: none;
+        width: 100%;
+        padding: 0px 20px;
+        border: none;
+    }
+    .login-form{
+      padding: none;
+      float: right;
+    }
+  }
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
