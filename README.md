@@ -12,7 +12,8 @@ Things to do:
 - seciurity of sending requests still has to be improved,
 - adding new books to collection,
 - rating and reviewing the books,
-- UI still has to be improved as well.
+- UI still has to be improved as well,
+- code still has to be optimized in terms of size and time complexity.
 
 Used technologies:  
 - ReactJS - front-end,
