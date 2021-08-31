@@ -1,3 +1,8 @@
+// IMPORTANT!
+// This repo is terribly outdated. I keep it just so that I can compare it with my current projects, 
+// and see the progress I've done.
+// Anyway, if you're in a mood for digging in an old, questionable quality, not-even-junior-level codebase, be my guest :)
+
 This web application is a project in which I tried to gather and show off all of my web-developers skills. 
 
 Main functionalities:
